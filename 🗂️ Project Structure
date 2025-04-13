@@ -1,0 +1,16 @@
+Cryptography/
+│
+├── app.py                # Main Flask app with routing
+├── database.py           # Database connection and schema logic
+├── encrypt.py            # AES encryption and decryption logic
+├── payments.db           # SQLite DB for storing encrypted data
+├── view_data.py          # Script to view encrypted data
+├── view_decrypted.py     # Script to view decrypted data
+│
+├── static/
+│   └── style.css         # Stylesheet for frontend
+│
+├── templates/
+│   ├── payment.html      # Form for payment input
+│   ├── success.html      # Submission success message
+│   └── view.html         # View encrypted/decrypted data
