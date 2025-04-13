@@ -1,0 +1,63 @@
+
+
+---
+
+## 🛠️ Technologies Used
+
+- **Python 3**
+- **Flask**
+- **SQLite**
+- **Cryptography Module (AES)**
+- **HTML/CSS**
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/RenishSelaxteena/-Secure-Payment-Information-Manager
+   ```
+
+2. Install required packages:
+
+   ```bash
+   pip install flask
+   ```
+
+3. Run the Flask app:
+
+   ```bash
+   python app.py
+   ```
+
+4. Open your browser and go to:
+
+   ```
+   http://localhost:5000
+   ```
+5. To view the backend database :
+
+Open DB Browser for SQLite.(app)
+(download if you dont have)
+
+Click on Open Database and select the payments.db file from the project folder.
+
+Navigate to the Browse Data tab.
+
+In the Table dropdown, select payment to view stored (encrypted) payment records.
+
+---
+
+---
+
+## 👤 Author
+
+- Renish Selaxteena R
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.
